@@ -9,14 +9,24 @@ import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
 
-dir = r'/Users/harishbalaji/documents/mycode/mycode/mypythoncode/Farmers'
-if not os.path.exists(dir):
-    os.mkdir(dir)
+dir = r'./'
+
+#dir = r'/Users/harishbalaji/documents/mycode/mycode/mypythoncode/Farmers'
+#if not os.path.exists(dir):
+#    os.mkdir(dir)
+
+#exists = os.path.isfile(
+#    '/Users/harishbalaji/documents/mycode/mycode/mypythoncode/Farmers/FriendlyFarmers.csv')
+#if exists:
+#    os.remove('/Users/harishbalaji/documents/mycode/mycode/mypythoncode/Farmers/FriendlyFarmers.csv')
+#else:
+#    print('File is created')
+
 
 exists = os.path.isfile(
-    '/Users/harishbalaji/documents/mycode/mycode/mypythoncode/Farmers/FriendlyFarmers.csv')
+    './FriendlyFarmers.csv')
 if exists:
-    os.remove('/Users/harishbalaji/documents/mycode/mycode/mypythoncode/Farmers/FriendlyFarmers.csv')
+    os.remove('./FriendlyFarmers.csv')
 else:
     print('File is created')
 
@@ -40,4 +50,4 @@ colors = [G[u][v]['color'] for u, v in edges]
 weights = [G[u][v]['weight'] for u, v in edges]
 nx.draw_networkx(G, pos, edges=edges, edge_color=colors, width=weights,
                  with_labels=True, font_color='Black', node_color='Yellow', node_size=500)
-plt.savefig('/Users/harishbalaji/documents/mycode/mycode/mypythoncode/Farmers/FriendlyFarmers.svg',format='svg',dpi=1200)
+plt.savefig('./FriendlyFarmers.svg',format='svg',dpi=1200)
