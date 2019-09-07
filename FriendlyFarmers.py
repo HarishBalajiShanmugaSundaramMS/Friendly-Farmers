@@ -32,6 +32,7 @@ else:
 
 G = nx.Graph()
 plt.figure(3, figsize=(20, 20))
+plt.axis('off')
 for x in range(1, 51):
     G.add_node(x)
     for y in range(1, 51):
