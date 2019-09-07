@@ -13,7 +13,7 @@ and enemies with every other farmer. Assuming you were to build the signed compl
 of this network, would it be structurally balanced (w.r.t. strong structural balance theory)?
 Explain your answer!
 </p>
-<img src='FriendlyFarmers.svg' width=600>
+<img src='FriendlyFarmers.svg' width=600  align="middle">
 <h5>Solution</h5>
 <p>
 Consider, the triangles (5,3,17) and (1,26,49)
