@@ -14,6 +14,7 @@ of this network, would it be structurally balanced (w.r.t. strong structural bal
 Explain your answer!
 </p>
 <img src='FriendlyFarmers.svg' width=1000  align="middle">
+
 <h5>Solution</h5>
 <p>
 Consider, the triangles (5,3,17) and (1,26,49)
@@ -23,4 +24,6 @@ Here, (5,3,17) is balanced as it has 1 positive sign and (1,26,49) is unbalanced
 So, We can conclude that the network is not structurally balanced.
 
 </p>
+
+<img src='FriendlyFarmers.gif' width=500  align="middle">
 
