@@ -25,6 +25,6 @@ So, We can conclude that the network is not structurally balanced.
 
 </p>
 
-<img src='FriendlyFarmers.gif' width=500  align="center">
+<img src='FriendlyFarmers.gif' width=500>
 
-<p align='center'>A graphical representation of friendship among 20 farmers. Friendship diameter is 
+<p>A graphical representation of friendship among 20 farmers. Friendship diameter is 5.
